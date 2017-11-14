@@ -1,0 +1,45 @@
+/* 
+    Document   : base
+    Created on : 10/04/2013, 03:12:03 PM
+    Author     : vsuspe
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@import url("login.css");
+@font-face{
+    font-family: "OpenS";
+    src: url(../css/OpenS.woff);}
+@font-face {
+    font-family: "SegoeUI";
+    src: url(../css/segoe-ui-webfont.woff);}
+@font-face {
+    font-family: "bSegoeUI";
+    src: url(../css/segoe-ui-semibold-webfont.woff);}
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+html, body { 
+    height: 100%;
+}
+.base-titulo{
+    background-color:#0072C6;/* #0000ff;*/
+    font: normal 20pt "OpenS","Calibri","Arial";
+    color: #eee;
+    height: 75px;
+    padding-left: 15px;
+}
+.base-pub{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font: normal 10pt "SegoeUI","Calibri",Arial;
+    color: #bbb;
+}
+/*- Genericos ----------------------------------------------------------------*/
+.tcen{
+    text-align: center;
+}
+.color1{
+    color: #0072c6;
+}

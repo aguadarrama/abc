@@ -1,0 +1,23 @@
+/* 
+    Document   : visorMT
+    Created on : 8/08/2014, 07:53:21 PM
+    Author     : c
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+GLOBAL
+*/
+
+*{margin: 0px; padding: 0px;}
+html, body{ height: 100%; width: 100%;}
+/*body{background-color: #1b1817;}*/
+
+.VIEWER-userbar{display: table-row; height: 40px; color:#EFEFEF; font: normal 11pt 'Segoe UI Light','Roboto'; background-color: #1cb4ff;}
+.VIEWER-userbar div{display: table-cell; vertical-align: middle;}
+.VIEWER-userbar div table{width: 100%; height: 100%; border-collapse: collapse;}
+.VIEWER-userbar div table td span{color:#1B1817;}
+.VIEWER-userbar .btnbar{background-color: #EFEFEF; color: #1B1817; width: 100px; text-align: center;}
+.VIEWER-userbar .btnbar:hover{color: #1cb4ff;}
+.VIEWER-userbar .btnbar:active{background-color: #1cb4ff; color: #EFEFEF;}

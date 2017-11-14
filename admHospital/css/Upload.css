@@ -1,0 +1,122 @@
+/**/
+@font-face {font-family: "SegoeUI";src: url(../css/segoe-ui-webfont.woff);}
+@font-face {font-family: "bSegoeUI";src: url(../css/segoe-ui-semibold-webfont.woff);}    
+@font-face {font-family: "Roboto";src: url(../css/Roboto.woff);}
+@font-face {font-family: "OpenS";src: url(../css/OpenS.woff);}             
+@font-face {font-family: 'Segoe UI Light'; src: url('segoe-ui-light-webfont.woff') format('woff');
+            font-weight: normal; font-style: normal;}
+
+
+.uploadify-button{height: 32px !important;}
+
+body{background-color: #1B1817;}
+
+
+/*
+------------------------------------------------------------------------------*/
+#box-header{
+    padxding             : 0px 5px 0px 20px;
+    background-color    : #1B1817;
+    height              : 61px;
+    width: 100%;
+    display: table;}
+#box-header div{
+    cxolor               : #EFEFEF; 
+    display             : table-cell;
+    vertical-align      : middle;}
+#box-header div span{
+    font                : normal 22pt 'OpenS','Calibri';
+    color               : #EFEFEF;}
+#div-BHlink{
+    width               : 7%; 
+    font                : normal 12pt 'Segoe UI Light';
+    padding-left        : 5px; 
+    border-left         : solid 1px #1cb4ff; 
+    color               : #1cb4ff;}
+#div-BHuser{width: 6%; 
+    font                : normal 12pt 'Segoe UI Light'; 
+    text-align          : right;
+    padding-right       : 5px; 
+    color               : #A4A4A4;}
+#div-BHicon{
+    width               : 73px;}
+#div-BHicon img{
+    position            : relative; 
+    top                 : 4px; 
+    margin-left         : 20px;}
+/*
+------------------------------------------------------------------------------*/
+
+#barra-menu{background-color: #080; height: 40px;box-shadow:#999999 0 5px 15px;}
+#barra-menu .title{color: #eee; font: normal 16pt 'Calibri';margin-left: 10px;}
+#barra-menu .user{position: fixed; right: 200px; top:101px; color: #eee; font: normal 11pt 'Calibri'}
+#barra-menu button{margin-left: 0px;margin-right: 0px; height: 40px; border:solid 1px #080;padding-left: 8px;padding-right: 8px; background-color: #080; color: #eee; font: normal 11pt 'Calibri';}
+#barra-menu button:hover{background-color: #060; color: #eee;}
+
+/* -------------------------------------------------------------- */
+#i0625-upload{border: dotted 1px transparent; padding: 0px 10px 10px 10px}
+/*#i0625-upload p{color: #444; font: normal 9pt 'Calibri';margin-top: 7px; margin-bottom: 3px;}*/
+#i0625-upload p{
+    color   : #C8C8C8; 
+    font: normal 9pt 'Calibri','Arial';margin-top: 7px; margin-bottom: 3px;}
+#i0625-upload select{height: 26px; width: 15em;}
+/**/
+#i0719-btn-up{position:absolute; top: 81px; left:160px;}
+/**/
+/* -------------------------------------------------------------- */
+
+/* -------------------------------------------------------------- */
+#i0625-files-up{border: solid 1px #0072C6; 
+                height: 100px; 
+                overflow-y: scroll; background-color: #f6f6f6; font: normal 10pt 'Arial'; color: #888; padding: 1em;line-height: 1.6em;}
+#i0625-barra-up{background-color: #0072C6; height: 34px; border: none; border-left:solid 1px #080;border-right: solid 1px #0072C6;}
+/*#i0625-barra-up button{border: solid 1px #0072C6; height: 34px; background-color: #0072C6; font: normal 11pt 'Calibri'; color: #eee; padding-left: 5px; padding-right: 5px;}*/
+/*#i0625-barra-up button:hover{border: solid 1px #0099ff;background-color: #0099ff;}*/
+/*#i0625-barra-up button:active{background-color:#049;border: solid 1px #049;}*/
+#i0625-barra-up button{
+    background-color    : #1CB4FF; 
+    border              : none;
+    font                : normal 10pt 'Roboto','SegoeUI','Calibri' ;
+    height: 34px; 
+    color: #eee; padding-left: 5px; padding-right: 5px;}
+#i0625-barra-up button:hover{
+    background-color    : hsl(200,100%,45%);}
+#i0625-barra-up button:active{
+    background-color    : hsl(200,100%,25%);}
+#i0625-barra-up button:disabled{color: #008;}
+
+.btn-blue{border: solid 1px #0072C6; height: 32px; background-color: #0072C6; font: normal 11pt 'Calibri'; color: #eee; padding-left: 5px; padding-right: 5px;}
+.btn-blue:hover{border: solid 1px #0099ff;background-color: #0099ff;}
+.btn-blue:active{background-color:#049;border: solid 1px #049;}
+
+/*.btn-tipo-1{height: 32px;width: 115px;background-color: #0072C6;color: #eee;border: solid 1px #0072C6;margin: 5px 15px 5px 0px;}*/
+.btn-tipo-1{
+    height              : 40px;
+    width: 115px;
+    background-color    : #1CB4FF;
+    font                : normal 10pt 'Roboto','SegoeUI','Calibri' ;
+    color               : #FFFFFF;
+    border              : solid 1px #1CB4FF;
+    margin: 5px 15px 5px 0px;}
+/*.btn-tipo-1:hover{background-color: rgb(30,130,204);border: solid 1px #1e82cc;}*/
+.btn-tipo-1:hover{
+    background-color    : hsl(200,100%,45%);
+    border              : solid 1px hsl(200,100%,45%);}
+.btn-tipo-1:active{background-color: #222;border: solid 1px #222;}
+.btn-tipo-1:disabled{color: #008; background-color: #0072C6;}
+/* -------------------------------------------------------------- */
+
+/* -------------------------------------------------------------- */
+#i0719-msg-box {box-shadow: 0px 0px 10px #888; top: 150px; display: none;position: absolute; border: solid 1px #aaa; padding: 10px 10px 10px 20px;background-color: #FFFFFF;}
+#i0719-msg-box p{margin-top: 10px; margin-bottom: 3px; font:normal 9pt 'SegoeUI','Calibri';}
+#i0719-msg-box input{height: 28px; font-size: large; padding-left: 5px; border: solid 1px #AAAAAA;}
+
+.c0719-msgbox {box-shadow: 0px 0px 10px #888; top: 150px; display: none;position: absolute; border: solid 1px #aaa; padding: 10px 10px 10px 20px;background-color: #FFFFFF;}
+.c0719-msgbox p{margin-top: 10px; margin-bottom: 3px; font:normal 9pt 'SegoeUI','Calibri';}
+.c0719-msgbox input{height: 28px; font-size: large; padding-left: 5px; border: solid 1px #AAAAAA;}
+
+.cerr {text-align: center; padding-left: 60px; padding-right: 60px; border: solid 1px red;}
+.cerr .btn-tipo-1{background-color: #DD0000; border-color: #DD0000;}
+.cerr .btn-tipo-1:hover{background-color: #FF0000; border-color: #FF0000;}
+.cerr .btn-tipo-1:active{background-color: #990000; border-color: #990000;}
+/* -------------------------------------------------------------- */

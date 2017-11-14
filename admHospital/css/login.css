@@ -1,0 +1,54 @@
+/* 
+    Document   : login
+    Created on : 10/04/2013, 03:13:35 PM
+    Author     : vsuspe
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@import url("botones.css");
+.base-login{
+    width: 350px;
+    margin-left     : auto;
+    margin-right    : auto;
+    margin-top      : 150px;
+/*    height: 300px;*/
+    background-color: #fefefe;
+    border: solid 1px #aaa;
+/*    background-image: url('../images/grad-red.png');*/
+}
+.base-login table{
+    border-collapse: collapse;
+    border: solid 1px transparent;
+    margin: 10px;
+    width: 330px;
+    font: normal 12pt 'Calibri',Arial;
+}
+.base-login table tr{
+    height: 50px;
+}
+.base-login table tr td{
+/*    border-top: dotted 1px #444;*/
+    width: 50%;
+}
+.base-login table tr:first-child td{
+    font: normal 20pt "Calibri",Arial;
+}
+.base-login input[type='text']{
+    height: 30px;
+    padding-left: 5px;
+    border: solid 1px #aaa;
+}
+.base-login input[type='password']{
+    height: 28px;
+    padding-left: 5px;
+    border: solid 1px #aaa;
+}
+.base-login select{
+    height: 30px;
+    padding-left: 1px;
+    margin-right: 2px;
+}
+/*----------------------------------------------------------------------------*/
+.base-login .color1{
+    color: #0072c6;
+}

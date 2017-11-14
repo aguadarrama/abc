@@ -1,0 +1,47 @@
+/* *****************************************************************************
+    Document   : global.css
+    Author     : Ing. Angel Guadarrama Romero
+    Company    : SUSPE
+    Description: Hoja de estilo base para el portal.
+    Created on : 
+    Last change: 
+***************************************************************************** */
+/*
+================================================================================
+Carga los webfont necesarios para todas las paginas del portal
+==============================================================================*/
+@font-face {font-family: "SegoeUI";src: url(../css/segoe-ui-webfont.woff);}
+@font-face {font-family: "bSegoeUI";src: url(../css/segoe-ui-semibold-webfont.woff);}    
+@font-face {font-family: "Roboto";src: url(../css/Roboto.woff);}
+@font-face {font-family: "OpenS";src: url(../css/OpenS.woff);}             
+@font-face {font-family: 'Segoe UI Light'; src: url('segoe-ui-light-webfont.woff') format('woff');
+            font-weight: normal; font-style: normal;}            
+@font-face {font-family: 'Lucida Console'; src: url('lucida_console.woff') format('woff');
+            font-weight: normal; font-style: normal;}  
+
+/* latin-ext */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata'), url(../css/inconsolata.woff2) format('woff2');
+  /*unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;*/
+}
+/* latin */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata'), url(../css/inconsolata.woff2) format('woff2');
+  /*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;*/
+}
+
+/*
+================================================================================
+Parametros basicos de maquetado
+==============================================================================*/
+/**{margin: 0px; padding: 0px;}*/
+/*body{margin: 0px; padding: 0px;}*/
+html, body{ height: 100%; width: 100%;}
+/*body{background-color: #1b1817; color: #EFEFEF;}/*
+==============================================================================*/

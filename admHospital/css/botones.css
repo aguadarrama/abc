@@ -1,0 +1,40 @@
+/* 
+    Document   : botones
+    Created on : 11/04/2013, 03:37:03 PM
+    Author     : vsuspe
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.btn-tipo-1{
+    height: 32px;
+    width: 115px;
+    background-color: #0072C6;
+    color: #eee;
+    border: solid 1px #0072C6;
+    margin: 5px 15px 5px 15px;
+}
+.btn-tipo-1:hover{
+    background-color: rgb(30,130,204);/* #0072FD;*/
+    border: solid 1px #1e82cc;
+}
+.btn-tipo-1:active{
+    background-color: #222;
+    border: solid 1px #222;
+}
+/****************************************************/
+.btn-tipo-2{
+    height: 32px;
+    width: 115px;
+    background-color: #BB0000;
+    color: #eee;
+    border: solid 1px #BB0000;
+    margin: 5px 15px 5px 15px;
+}
+.btn-tipo-2:hover{
+    background-color: #DD0000;
+    border: solid 1px #DD0000;
+}
+.btn-tipo-2:active{
+    background-color: #222;
+    border: solid 1px #222;
+}

@@ -1,0 +1,20 @@
+*{margin: 0px; padding: 0px;}
+body{background-color: #f3f3f4;}
+.loc-div-btn-bar button{height: 100%; padding-left: 1rem; padding-right: 1rem; border: transparent; font: normal 10pt 'Roboto','SegoeUI','Arial';
+                        background-color: #4B667F; color: #dfe4ed;
+                        cursor: pointer;}
+/*background-color: #2f4050; color: #dfe4ed;*/
+.loc-div-btn-bar button:disabled{color: #ffffff; 
+                                 text-decoration: inherit; 
+                                 background-color: #233646;
+}
+/*.loc-div-btn-bar button:disabled:hover{baxckground-color: transparent; color: #ffffff; text-decoration: underline; background-color: #233646;}*/
+.loc-div-btn-bar button:hover{background-color: #233646; color: #ffffff;}
+.loc-div-btn-bar button:last-child{border-left: solid 1px #a00000; coxlor: #F84040;}
+
+/*.loc-div-pie{height: 40px!important; font: normal 9pt 'Roboto','Arial'; padding: 0px; padding-top: 11px; padding-left: 20px;
+             border-top: none; border-radius: 0px;}*/
+/*#div-pie{height: 40px!important; font: normal 9pt 'Roboto','Arial'; padding: 0px; padding-top: 11px; padding-left: 20px;
+             border-top: none; border-radius: 0px;}
+*/
+#cont-principal.card{background-color: #f3f3f4; border-radius: 0px;}
