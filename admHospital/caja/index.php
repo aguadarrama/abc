@@ -39,7 +39,7 @@
     <div>
         <table>
             <tr>
-                <th>CANTIDAD</th>
+                <th>CANTIDADx</th>
                 <th>CLAVE</th>
                 <th>DESCRIPCION</th>
                 <th>PRECIO UNITARIO</th>
