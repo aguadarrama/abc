@@ -43,7 +43,7 @@
                 <th>CLAVE</th>
                 <th>DESCRIPCION</th>
                 <th>PRECIO UNITARIO</th>
-                <th>PRECIO TOTAL</th>
+                <th>PRECIO TOTALx</th>
             </tr>
             <tr>
                 <td>1</td>
