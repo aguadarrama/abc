@@ -29,6 +29,9 @@
             reghistro de procedimiento
             -----
             abc de doctres y enfermeras
+            <!--
+            Se debe seguir el mismo patron de diseño que los usados para los Médicos
+            -->
             ----
             reportes del dia/// reporte por enfermera/// por dr/// por folio
             
